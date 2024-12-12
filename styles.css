@@ -1,3 +1,27 @@
 body {
   font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+}
+
+ul {
+  display: flex;
+}
+
+.header-content {
+  display: flex;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
 }
