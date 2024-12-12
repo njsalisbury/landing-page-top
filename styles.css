@@ -25,3 +25,17 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-images {
+  display: flex;
+}
+
+.content-image {
+  display: flex;
+  flex-direction: column;
+}
