@@ -165,9 +165,6 @@ h2 {
 
 
 
-.action-content {
-}
-
 .action-container {
   background: #3882F6;
   width: 1000px;
@@ -215,5 +212,7 @@ h2 {
 
 
 .footer {
-
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
