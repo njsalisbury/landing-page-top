@@ -23,6 +23,7 @@ body {
 }
 
 
+
 .header {
   height: 600px;
   gap: 80px;
@@ -57,6 +58,7 @@ ul {
 li {
   margin: 10px;
 }
+
 
 
 .header-content {
@@ -96,8 +98,6 @@ h1 {
 
 
 
-
-
 .main-content {
   justify-content: center;
   align-items: center;
@@ -115,7 +115,6 @@ h2 {
   gap: 40px;
 }
 
-
 .content-image {
   align-items: center;
   text-align: center;
@@ -132,6 +131,7 @@ h2 {
   font-size: 19px;
   color: #363636;
 }
+
 
 
 .quote-bg {
@@ -163,14 +163,57 @@ h2 {
   align-self: flex-end;
 }
 
+
+
 .action-content {
 }
 
 .action-container {
+  background: #3882F6;
+  width: 1000px;
+  height: 160px;
+  border-radius: 8px;
+  margin: 100px 0px;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
 }
 
 .action-text {
+  margin-left: 80px;
+  justify-content: center;
+  align-items: baseline;
 }
 
+.action-text h4,
+.action-text p {
+  margin: 0;
+}
+
+.action-text h4 {
+  font-size: 24px;
+}
+
+.action-text p {
+  color: #E5E7EB;
+  font-size: 20px;
+}
+
+.action-container button {
+  margin-right: 160px;
+  flex: 0;
+  background: #3882F6;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  color: #FFFFFF;
+  padding: 6px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  flex: 0 0 auto;
+}
+
+
+
 .footer {
+
 }
